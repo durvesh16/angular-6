@@ -1,10 +1,10 @@
 @font-face {
   font-family: "font-regular";
-  src: url("../fonts/SourceSansPro-Regular.ttf");
+  src: url("../fonts/Lato-Regular.ttf");
 }
 @font-face {
   font-family: "font-semibold";
-  src: url("../fonts/SourceSansPro-SemiBold.ttf");
+  src: url("../fonts/Lato-Bold.ttf");
 }
 .text-white {
   color: #fff !important;
@@ -61,7 +61,7 @@ input, select {
   border-color: #ffd740 !important;
   color: #000 !important;
   font-size: 12px !important;
-  padding: 5px 16px !important;
+  padding: 8px 20px !important;
 }
 
 .btn-danger {
@@ -85,7 +85,6 @@ input, select {
 }
 
 .btn-primary:disabled {
-  opacity: 1 !important;
   cursor: not-allowed !important;
 }
 
@@ -735,8 +734,7 @@ table.dataTable td {
 }
 
 html, body {
-  margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 
 body {

@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'application';
+  title = '6';
+
+ count = 0;
+
+ add() {
+   this.count++;
+ }
+
 }

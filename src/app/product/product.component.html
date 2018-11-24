@@ -1,0 +1,23 @@
+
+
+<p class="text-heading">{{title}}</p>
+
+<button class="btn btn-primary" [disabled]="isdisabled">Active / Inactive</button>
+
+<br><br>
+
+<div class="row">
+  <div class="col-2">
+    <label class="input-label mb-0">Language</label>
+    <input type="text" [(ngModel)]="language" class="form-control">
+  </div>
+  <div class="col-6">
+    <br>
+    <button class="btn btn-primary mr-3" [disabled] = "isdisabledangular"  (click)="add()"> Add Angular Version</button> 
+
+    <label class="mr-3">{{language}} {{count}}</label>
+
+    <button class="btn btn-secondary mr-3" (click)="reset()"> Reset Angular Version</button>
+  </div>
+</div>
+
