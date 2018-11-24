@@ -1,0 +1,39 @@
+.text-white{
+    color:#fff !important;
+}
+
+.text-heading{
+    font-family: $font-semibold !important;
+    color:$primary-color;
+}
+
+.text-sm{
+    font-size: 15px !important;
+}
+
+.bg-primary{
+    background-color:$primary-color !important; 
+}
+
+button{
+    cursor: pointer !important;
+}
+
+.input-label{
+    color:#383838;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+.page-padding{
+    padding: 20px;
+}
+
+input, select{
+    font-size: 14px !important;
+}
+
+.blue-border{
+    border:1px solid $primary-color !important;
+}
+
