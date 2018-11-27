@@ -16,7 +16,7 @@ export class AppComponent {
    this.count++;
  }
 
- firdtmediaitem = {
+ firstmediaitem = {
  
   moviename : 'Thor',
   watchon : '25 - 11- 2018',
