@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -12,6 +14,15 @@ export class AppComponent {
 
  add() {
    this.count++;
+ }
+
+ firdtmediaitem = {
+ 
+  moviename : 'Thor',
+  watchon : '25 - 11- 2018',
+  category : 'Action',
+  year : '2017'
+  
  }
 
 }
