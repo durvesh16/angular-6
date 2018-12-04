@@ -16,13 +16,19 @@ export class AppComponent {
    this.count++;
  }
 
- firstmediaitem = {
+ firstmediaitem = 
  
-  moviename : 'Thor',
-  watchon : '25 - 11- 2018',
-  category : 'Action',
-  year : '2017'
+        {
+        
+          moviename : null,
+          watchon : '25 - 11- 2018',
+          category : 'Action',
+          year : '2017'
+          
+        }
+
+       
+
   
- }
 
 }

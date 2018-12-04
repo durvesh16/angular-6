@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductComponent } from './product/product.component';
 import { ThumbnailComponent } from './thumbnail/thumbnail.component';
+import { ThumbnailListComponent } from './thumbnail-list/thumbnail-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductComponent,
-    ThumbnailComponent
+    ThumbnailComponent,
+    ThumbnailListComponent
   ],
   imports: [
     BrowserModule,
