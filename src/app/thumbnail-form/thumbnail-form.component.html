@@ -1,0 +1,42 @@
+<form #thumbnailItemForm="ngForm" (ngSubmit)="onSubmit(thumbnailItemForm.value)">
+
+<div class="row">
+  <div class="col-2">
+    <div class="form-group">
+      <label class="input-label">Medium</label>
+      <select class="form-control" name="medium" ngModel>
+          <option value="Movies">Movies</option> 
+      </select>
+    </div> 
+  </div>
+  <div class="col-2">
+    <div class="form-group">
+      <label class="input-label">Name</label>
+      <input type="text" class="form-control" name="name" ngModel>
+    </div> 
+  </div>
+  <div class="col-2">
+    <div class="form-group">
+      <label class="input-label">Category</label>
+      <select class="form-control" name="category" ngModel> 
+          <option value="comedy">Comedy</option> 
+          <option value="action">Action</option> 
+      </select>
+    </div> 
+  </div>  
+  <div class="col-2">
+      <div class="form-group">
+        <label class="input-label">Year</label>
+        <input type="text" class="form-control" name="year" ngModel>
+      </div> 
+    </div>  
+  <div class="col-2">
+      <div class="form-group">
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div> 
+    </div> 
+</div>
+
+</form>
+
