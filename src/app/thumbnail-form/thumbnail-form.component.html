@@ -1,11 +1,12 @@
-<form [FormGroup]="form" (ngSubmit)="onSubmit(form.value)">
+<form [formGroup]="form" (ngSubmit)="onSubmit(form.value)">
 
 <div class="row">
   <div class="col-2">
     <div class="form-group">
       <label class="input-label">Medium</label>
       <select class="form-control" name="medium" formControlName="medium">
-          <option value="Movies">Movies</option> 
+          <option value="movies">Movies</option> 
+          <option value="play">Play</option> 
       </select>
     </div> 
   </div>
